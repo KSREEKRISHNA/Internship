@@ -1,0 +1,28 @@
+class Telangana():
+    def capital(self):
+        print("Hydrabad is the capital of Telangana,")
+        
+    def language(self):
+        print("Telugu is the most spken language of Telangana,")
+            
+    def type(self):
+        print("Telangana is a developing country,")
+            
+class Tamilnadu():
+    def capital(self):
+        print("Chenai is the capital of Tmailnadu,")
+        
+    def language(self):
+        print("Tmail is the most spken language of USA,")
+            
+    def type(self):
+        print("Tamilnadu is a developing country,")
+        
+obj_tlg = Telangana()
+obj_tmn = Tamilnadu()
+for state in (obj_tlg, obj_tmn):
+    state.capital()
+    state.language()
+    state.type()
+    
+

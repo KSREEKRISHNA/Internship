@@ -1,0 +1,12 @@
+class Parent():
+    def show(self):
+        print("inside parent")
+class child(Parent):
+    def show(self):
+        print("inside child")
+class Grandchild(child):
+    def show(self):
+        print("inside Grandchild")
+g = Grandchild
+g.show()
+g.show()  
